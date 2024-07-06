@@ -1,0 +1,139 @@
+.right01 {
+  height: 45vh;
+  width: 100%;
+  /* background-color: purple; */
+  display: flex;
+}
+
+.Right01-left {
+  height: 100%;
+  width: 40%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  padding: 0 20px;
+}
+.Right01-left img {
+  border-radius: 50%;
+  height: 22vh;
+  width: 22vh;
+}
+.Right01-right {
+  height: 100%;
+  width: 60%;
+  /* background-color: blueviolet; */
+}
+.r01-r-01 {
+  height: 73px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+.r01-r-01 h2 {
+  color: #fff;
+  font-family: var(--button-font);
+  font-weight: 400;
+  font-size: 3vh;
+}
+.r01-r-01 button {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for size and spacing */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+.r01-r-01 button:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+}
+
+.r01-r-01 img {
+  height: 20px;
+  width: 20px;
+  filter: invert(1);
+}
+
+/* section r01-r-02 */
+
+.r01-r-02 {
+  height: calc(45vh - 73px);
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  font-family: var(--button-font);
+  padding: 20px; /* Padding around the section */
+  width: 100%; /* Fixed width for the section */
+  margin: 0 auto; /* Center the section */
+}
+.profile-stats {
+  display: flex; /* Use flexbox for horizontal alignment */
+  /* justify-content: space-between;  */
+  gap: 40px;
+  margin-bottom: 10px; /* Space below the stats */
+}
+.profile-stats span {
+  font-weight: bold; /* Bold text for stats */
+}
+.profile-username {
+  margin-bottom: 10px; /* Space below the username */
+}
+.profile-username h2 {
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+.profile-handle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0.6vh 1.5vh;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.profile-handle:hover {
+  background-color: #555;
+}
+.profile-handle img {
+  height: 17px;
+  width: 15px;
+  filter: invert(1);
+}
+/* .profile-handle {
+    display: flex; 
+    align-items: center;  
+
+} */
+.profile-bio h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Font size for the heading */
+  margin-bottom: 5px; /* Space below the heading */
+}
+
+.profile-insights p {
+  margin: 10px 0; /* Margin around the insights text */
+  font-size: 14px; /* Smaller font size for insights */
+}
+
+.profile-insights a {
+  color: #fff; /* White color for link */
+  font-weight: bold; /* Bold text for link */
+  text-decoration: none; /* Remove underline */
+}
+
+.profile-insights a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* section r01-r-03 */
+.r01-r-03{
+    height: 20vh;
+    width: 100%;
+    background-color: red;
+  }

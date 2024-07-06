@@ -1,0 +1,27 @@
+.CardContainer{
+  height: 140px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  /* justify-content: center; */
+  gap: 20px;
+}
+.card1{
+  height: 120px;
+  width: 120px;
+  /* background-color: yellow; */
+}
+
+.card1 img{
+  height: 95px;
+  width: 100px;
+  border-radius: 50%;
+  /* padding: 10px 20px; */
+}
+#card4 img{
+  border: 2px solid #000;
+  /* border: 2px solid #dadada; */
+  filter: invert(2);
+}
